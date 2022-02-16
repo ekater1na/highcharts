@@ -1,0 +1,22 @@
+{
+  "name": "highcharts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekater1na/highcharts-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekater1na/highcharts-app/issues"
+  },
+  "homepage": "https://github.com/ekater1na/highcharts-app#readme",
+  "dependencies": {
+    "highcharts": "^9.3.3"
+  }
+}
