@@ -11,5 +11,6 @@
     <orderEntry type="library" name="highcharts" level="application" />
     <orderEntry type="library" name="high-contrast-light" level="application" />
     <orderEntry type="library" name="highcharts-more" level="application" />
+    <orderEntry type="library" name="data" level="application" />
   </component>
 </module>

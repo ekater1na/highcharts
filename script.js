@@ -187,3 +187,19 @@ Highcharts.chart('data-point', {
     ],
     legend: {enabled: true}
 });
+Highcharts.chart('csv', {
+    chart: {type: 'bar'},
+    title: {text: 'Sales'},
+    xAxis: {
+        title: {text: 'Month'},
+        type: 'category',
+        reversed: false
+    },
+    yAxis: {
+        title: {text: 'Sales'},
+        tickInterval: 5
+    },
+    data: {csvURL: 'https://ekater1na.github.io/highcharts-app//data.csv'},
+    // data: {csvURL: 'http://localhost:63342/highcharts-app/data.csv'},
+    legend: {enabled: true}
+});
