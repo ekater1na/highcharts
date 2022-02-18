@@ -164,3 +164,26 @@ Highcharts.chart('polar', {
     ],
     legend: {enabled: true}
 });
+
+Highcharts.chart('data-point', {
+    chart: {type: 'bar'},
+    title: {text: 'Sales'},
+    xAxis: {
+        title: {text: 'Month'},
+        type: 'category',
+        reversed: false
+    },
+    yAxis: {
+        title: {text: 'Sales'},
+        tickInterval: 5
+    },
+    series: [
+        {
+            name: "Model R",
+            data: [['Jan', 5], ['Feb', 8], {'Mar': 2, y: 11, name: 'Main', color: '#a80e4e'}, ['Apr', 19], ['May', 7], ['Jun', 9]],
+            dataSorting: {enabled: true, sortKey: 'name'},
+            color: '#23726a'
+        },
+    ],
+    legend: {enabled: true}
+});
